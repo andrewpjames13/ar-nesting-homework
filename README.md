@@ -10,6 +10,8 @@ There are Companies, Locations, Reviews, and Products.
 
 The models need to be fixed to make them communicate.
 
+MODELS MODELS MODELS!!!!
+
 Companies have many Locations and Products.
 
 Products have many reviews.
@@ -27,9 +29,9 @@ set a variable called companies = to all the Companies.
   companies = Company.all
 
 1. set a variable called products = to all the Products ordered by name.
-  products = Product.order(:name)
 
-2. set a variable called locations = to all the Locations ordered by name.
+
+2. set a variable called locations = to all the Locations ordered by street_name.
 
 
 3. set a variable called reviews = to all the Reviews ordered by rating.
@@ -83,7 +85,6 @@ set a variable called companies = to all the Companies.
 The root page should be 'companies#index'
 
 There are no views setup. Root is set to standard rails page.
-There are no routes setup. Remember that we need to nest some of our routes.
 
 Show page for each company.
 Users can create companies.
