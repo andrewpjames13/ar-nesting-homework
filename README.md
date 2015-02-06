@@ -92,11 +92,13 @@ Create an index page for companies that lists all companies and attributes in a 
 (Set root to this page)
 
 example rows:
+```
 
  name        |  suffix | catch_phrase        | email                      | start_date   | industry |
 "Mayert-Rau" | "Inc"   | "Focused framework" | "erick@jacobiokuneva.info" | "2014-05-26" | "Finance"| Create Product | Create Location | Delete Company |
 "Google"     | "Inc"   | "Focused Web"       | "google@google.info"       | "2014-05-26" | "Finance"| Create Product | Create Location | Delete Company |
 
+```
 The company name should link to the companies show page.
 
 Link to Create Product and Create Location. The name should link to a show page for that company.
