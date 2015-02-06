@@ -107,24 +107,22 @@ example rows:
 
 
 
-The company name should link to the companies show page.
-
-Link to Create Product and Create Location. The name should link to a show page for that company.
-Link to delete a company.
-
-Show page for company shows all details of company and shows all it's products and locations in separate tables.
-
-Users can create Locatons/Products/Reviews.
-
-A product showpage that contains all of the products reviews.
+* The company name should link to the companies show page.
+* Link to Create Product and Create Location. The name should link to a show page for that company.
+* Link to delete a company.
+* Show page for company shows all details of company and shows all it's products and locations in separate tables.
+* Users can create Locatons/Products/Reviews.
+* A product showpage that contains all of the products reviews.
 
 
 
+Things to remember
+* Remember that Products have reviews.
+* Now we need to figure out how to nest routes inside of nested routes.
 
-Remember that Products have reviews.
-Now we need to figure out how to nest routes inside of nested routes.
 
-Remember with the last exercise we did we had Companies and employees and we did
+
+* Remember with the last exercise we did we had Companies and employees and we did
 
 ```
 
