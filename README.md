@@ -29,7 +29,7 @@ set a variable called companies = to all the Companies.
 1. set a variable called products = to all the Products ordered by name.
   products = Product.order(:name)
 
-2. set a variable called locations = to all the Locations ordered by title.
+2. set a variable called locations = to all the Locations ordered by name.
 
 
 3. set a variable called reviews = to all the Reviews ordered by rating.
