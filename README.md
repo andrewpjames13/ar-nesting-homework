@@ -15,7 +15,7 @@ Companies have many Locations and Products.
 Products have many reviews.
 
 
-### Stories:
+# Stories:
 
 Fill in the line below each direction with the command needed to complete it.
 
@@ -171,9 +171,9 @@ edit_company_product_review GET    /companies/:company_id/products/:product_id/r
 
 
 
-Stretch goals:
+## Stretch goals:
 
-Make a "/products" page which lists ALL the products, regardless of company.
-Make a "/reviews" page which lists ALL the reviews, regardless of product.
+* Make a "/products" page which lists ALL the products, regardless of company.
+* Make a "/reviews" page which lists ALL the reviews, regardless of product.
 
 Return the average rating for a Products Reviews. (In rails console)
