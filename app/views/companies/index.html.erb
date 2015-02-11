@@ -1,0 +1,23 @@
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Suffix</th>
+    <th>Catch Phrase</th>
+    <th>email</th>
+    <th>Start Date</th>
+    <th>Industry</th>
+  </thead>
+  <tbody>
+    <% @companies.each do |c|  %>
+    <tr>
+      <td> <%= link_to c.name, c  %></td>
+      <td> <%= c.suffix %></td>
+      <td> <%= c.catch_phrase %></td>
+      <td> <%= c.email %></td>
+      <td> <%= c.start_date %></td>
+      <td> <%= c.industry %></td>
+      <td> <%= link_to "Create new Product", new_company_product_path(c) %>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
