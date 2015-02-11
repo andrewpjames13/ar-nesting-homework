@@ -13,9 +13,9 @@ class CompaniesController < ApplicationController
   end
 
   def create
-    @company = Company.find(prarms[:id])
+    @company = Company.new(company_params)
     if @company.save
-      redirect_to root_path
+      redirect_to company_path(@company)
     else
       render :new
     end
