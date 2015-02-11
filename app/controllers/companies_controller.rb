@@ -8,6 +8,20 @@ class CompaniesController < ApplicationController
     @company = Company.find(params[:id])
   end
 
+  def new
+    @company = Company.new
+  end
+
+  def create
+    @company = Company.find(prarms[:id])
+    if @company.save
+      redirect_to root_path
+    else
+      render :new
+    end
+  end
+
+
   private
 
     def company_params

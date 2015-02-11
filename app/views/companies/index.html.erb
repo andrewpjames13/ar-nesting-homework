@@ -1,3 +1,7 @@
+<div class="page-header">
+  <h1>Companies</h1>
+  <%= link_to "Create New Company", new_company_path, class: "btn btn-info pull-right" %>
+</div>
 <table>
   <thead>
     <th>Name</th>
@@ -16,7 +20,7 @@
       <td> <%= c.email %></td>
       <td> <%= c.start_date %></td>
       <td> <%= c.industry %></td>
-      <td> <%= link_to "Create new Product", new_company_product_path(c) %>
+      <td> <%= link_to "Create new Product", new_company_product_path(c) %></td>
     </tr>
     <% end %>
   </tbody>

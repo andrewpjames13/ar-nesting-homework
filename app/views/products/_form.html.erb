@@ -1,0 +1,14 @@
+<%= form_for [@company, @product] do |f| %>
+
+  <%= f.label :department %>
+  <%= f.text_field :department %>
+
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :price %>
+  <%= f.text_field :price %>
+
+  <%= f.submit %>
+
+<% end %>
